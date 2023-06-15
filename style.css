@@ -1,6 +1,8 @@
 body {
-  background-color: #A3A3C2;
-  color: black;
+  background-color: #EEEEEE;
+  color: #29293d;
   font-family: Verdana;
-  width: 700px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: auto;
 }
