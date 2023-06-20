@@ -131,42 +131,79 @@ div.desc {
   box-sizing: border-box;
 }
 
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
+<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19763203.laurel-greyland">
 		<img src="/img/laurel.png" alt="Laurel">
 	</a>
 	<div class="desc">Laurel</div>
 </div>
+</div>
+<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19761782.olga-siren-riverfork">
 		<img src="/img/olga.png" alt="Siren">
 	</a>
 	<div class="desc">Siren</div>
 </div>
+</div>
+<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19762566.circe">
 		<img src="/img/circe.png" alt="Circe">
 	</a>
 	<div class="desc">Circe</div>
 </div>
+</div>
+<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19762367.morgiah-nightgard">
 		<img src="/img/mor.png" alt="Morgiah">
 	</a>
 	<div class="desc">Morgiah</div>
 </div>
+</div>
+<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19762807.ellis-clayman">
 		<img src="/img/ellis.png" alt="Ellis">
 	</a>
 	<div class="desc">Ellis</div>
 </div>
+</div>
+<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/20044225.keaton-casey-coleman">
 		<img src="/img/casey.png" alt="Casey">
 	</a>
 	<div class="desc">Casey</div>
+</div>
 </div>
 </body>
 </html>
