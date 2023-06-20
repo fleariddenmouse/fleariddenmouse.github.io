@@ -109,7 +109,8 @@ div.gallery {
   margin: 10px;
   border: 1px solid #99bbff;
   float: left;
-  width: 100px;
+  width: 150px;
+  gap: 25px;
 }
 
 div.gallery:hover {
@@ -117,7 +118,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
@@ -126,51 +127,19 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 100px;
-}
-
-@media only screen and (max-width: 100px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  gap: 50px;
-  clear: both;
-}
 </style>
-<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19763203.laurel-greyland">
 		<img src="/img/laurel.png" alt="Laurel">
 	</a>
 	<div class="desc">Laurel</div>
 </div>
-</div>
-<div class="responsive">
 <div class="gallery">
 	<a target="_blank" href="https://toyhou.se/19761782.olga-siren-riverfork">
 		<img src="/img/olga.png" alt="Siren">
 	</a>
 	<div class="desc">Siren</div>
-</div>
+
 </div>
 </body>
 </html>
